@@ -4,7 +4,7 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-import CssBaseline from '@mui/material/CssBaseline';
+import Navbar from "@/shared/components/layouts/navbar/Navbar";
 
 export default function RootLayout({
   children,
@@ -14,10 +14,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <ThemeProvider>
-          <CssBaseline />
+          <Navbar />
           {children}
-        </ThemeProvider>
       </body>
     </html>
   );
