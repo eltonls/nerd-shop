@@ -3,5 +3,8 @@
     "navbar": {
       "search_placeholder": "Pesquisar..."
     }
+  },
+  "products": {
+    "title": "Produtos"
   }
 }
